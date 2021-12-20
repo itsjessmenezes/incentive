@@ -24,9 +24,11 @@ header h1 {
 .first-steps {
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
-.first-steps h2 {
+.first-steps h2,
+.expand-knowledge h2 {
   color: var(--light-purple-color);
   margin-bottom: 40px;
 }
@@ -37,7 +39,10 @@ header h1 {
   justify-content: center;
 }
 
-.first-steps-card {
+.first-steps-card,
+.frontend-card,
+.backend-card,
+.mobile-card {
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -54,14 +59,48 @@ header h1 {
   cursor: pointer;
 }
 
-.first-steps-info {
+.first-steps-info,
+.frontend-info,
+.backend-info,
+.mobile-info {
   margin-left: 13px;
 }
 
-.first-steps-info h4 {
+.first-steps-info h4,
+.frontend-info h4,
+.backend-info h4,
+.mobile-info h4 {
   color: var(--dark-purple-color);
 }
 
-.first-steps-info span {
+.first-steps-info span,
+.frontend-info span,
+.backend-info span,
+.mobile-info span {
   color: var(--light-purple-color-transparent);
+}
+
+.expand-knowledge {
+  margin-bottom: 100px;
+}
+
+.expand-knowledge .frontend,
+.expand-knowledge .backend,
+.expand-knowledge .mobile {
+  margin-bottom: 30px;
+}
+
+.expand-knowledge-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frontend h3,
+.backend h3,
+.mobile h3 {
+  color: var(--light-purple-color);
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
 }
