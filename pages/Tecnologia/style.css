@@ -63,7 +63,10 @@ header h1 {
 .frontend-info,
 .backend-info,
 .mobile-info {
+  display: flex;
+  flex-direction: column;
   margin-left: 13px;
+  align-items: flex-start;
 }
 
 .first-steps-info h4,
@@ -78,6 +81,7 @@ header h1 {
 .backend-info span,
 .mobile-info span {
   color: var(--light-purple-color-transparent);
+  font-size: 14px;
 }
 
 .expand-knowledge {
