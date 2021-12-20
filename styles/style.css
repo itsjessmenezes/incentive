@@ -465,6 +465,10 @@ img.arrow {
   border-radius: 50%;
 }
 
+/* .our-encourager-image img:hover {
+  border: 5px solid rgba(255, 255, 255, 0.35);
+} */
+
 .encouragers-title {
   color: var(--dark-purple-color);
   margin-bottom: 3px;

@@ -1,4 +1,4 @@
-const coursesHome = [
+const courses = [
   {
     course: 'Design',
     quantity: 21
@@ -24,7 +24,6 @@ const coursesHome = [
     quantity: 53
   },
 ];
-
 const communityCompany = [
   'Rocketseat',
   'iFood',
@@ -39,7 +38,6 @@ const communityCompany = [
   'VTEX',
   'XP Inc'
 ];
-
 const nivelAwardsCards = [
   {
     nivel: 1,
@@ -62,9 +60,7 @@ const nivelAwardsCards = [
     description: 'Auxilio carreira. Monitoria para auxiliar com a carreira que desejar seguir'
   },
 ];
-
-const peopleImpacted = ['LEVEL UP', 10, 20, 40, 80, 100];
-
+const peopleImpacted = [10, 20, 40, 80, 100];
 const encouragersCard = [
   {
     name: 'Rafael Garcia',
@@ -147,3 +143,27 @@ const encouragersCard = [
     trophy: 4
   },
 ];
+
+const courseList = document.querySelector('.courses-options-list')
+const btnTecnology = document.querySelector('.tecnology');
+
+function tecnologyPage() {
+
+}
+
+btnTecnology.addEventListener('click', tecnologyPage)
+
+console.log(btnTecnology)
+
+// const courseCard = document.createElement('div');
+// courseCard.classList = 'courses-options-card';
+// const courseMap = courses.map(course => {
+//   courseCard.innerHTML = `
+//   <img src="./assets/courses/${course.course}.svg" alt="Curso de ${course.course}" />
+//     <div class="info-card">
+//       <span class="title">${course.course}</span>
+//       <span class="subtitle">${course.quantity} cursos</span>
+//     </div
+//   `;
+// });
+// courseList.append(courseCard);
