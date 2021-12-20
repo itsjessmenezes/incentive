@@ -1,0 +1,98 @@
+.our-encouragers h2 {
+  color: var(--light-purple-color);
+  margin-bottom: 32px;
+}
+
+.our-encouragers-container {
+  display: flex;
+  margin-bottom: 60px;
+  padding: 0 55px;
+}
+
+.our-encouragers-container.encouragers-arrow {
+  margin-right: 20px;
+}
+
+.our-encouragers-cards {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.our-encouragers-card {
+  background: var(--white);
+  display: flex;
+  width: 220px;
+  height: 280px;
+  margin-right: 40px;
+  padding: 17px 40px 12px 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.our-encourager-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-encouragers-card:hover {
+  background: linear-gradient(
+    90.42deg,
+    rgba(101, 83, 199, 0.8) -44.04%,
+    #fa0cff 110.32%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  color: white;
+}
+
+.our-encourager-image img {
+  width: 127px;
+  height: 127px;
+
+  border: 5px solid rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  margin-bottom: 8px;
+  border-radius: 50%;
+}
+
+/* .our-encourager-image img:hover {
+  border: 5px solid rgba(255, 255, 255, 0.35);
+} */
+
+.encouragers-title {
+  color: var(--dark-purple-color);
+  margin-bottom: 3px;
+}
+
+.encouragers-subtitle {
+  margin-bottom: 5px;
+}
+
+.encouragers-subtitle,
+.awards-info span {
+  color: var(--light-purple-color-transparent);
+  font-size: 10px;
+  font-weight: normal;
+  text-align: start;
+}
+
+.awards-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.our-encouragers-card .trophy {
+  margin-left: auto;
+}
+
+.trophy img {
+  width: 22px;
+}

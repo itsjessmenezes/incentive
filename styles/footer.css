@@ -1,0 +1,55 @@
+footer {
+  background-image: url('../assets/background/bg-footer.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-site-description {
+  display: flex;
+  width: 100%;
+  margin-bottom: 40px;
+  padding-top: 60px;
+  justify-content: center;
+}
+
+.site-description-about,
+.site-description-courses,
+.site-description-community,
+.site-description-quick-link {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+
+  font-family: 'Nunito', sans-serif;
+}
+
+.site-description-about .site-description-title,
+.site-description-courses .site-description-title,
+.site-description-community .site-description-title,
+.site-description-quick-link .site-description-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.site-description-about span,
+.site-description-courses span,
+.site-description-community span,
+.site-description-quick-link span {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: start;
+  margin-bottom: 6px;
+}
+
+.footer-social-media {
+  background: rgba(0, 0, 0, 0.02);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 35px;
+}
+
+.social-media img {
+  margin-right: 7px;
+}

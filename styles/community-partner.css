@@ -1,0 +1,49 @@
+.community-company-partner {
+  display: flex;
+  width: 100%;
+  margin-bottom: 60px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.community-company-partner-card:hover {
+  cursor: pointer;
+}
+
+.community-company-partner h2,
+.community-company-partner p {
+  width: 520px;
+
+  color: var(--light-purple-color);
+}
+
+.community-company-partner h2 {
+  margin-bottom: 16px;
+}
+
+.community-company-partner p {
+  margin-bottom: 40px;
+}
+
+.community-company-partner-cards {
+  display: flex;
+  width: 965px;
+}
+
+.community-company-partner-card {
+  background: var(--white);
+  display: flex;
+  width: 200px;
+  height: 58px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  padding: 18px 0;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.community-company-partner-card span {
+  color: var(--dark-purple-color);
+}

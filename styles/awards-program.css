@@ -1,0 +1,49 @@
+.awards-program {
+  background-image: url('../assets/background/bg-program-awards.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  margin-bottom: 45px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.awards-program h2 {
+  width: 924px;
+  margin-bottom: 35px;
+}
+
+.awards-program-info {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.awards-program-info img {
+  width: 130px;
+  height: 130px;
+  margin-right: 18px;
+}
+
+.awards-program-info span {
+  width: 695px;
+  margin-bottom: 30px;
+
+  font-size: 32px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.awards-program button {
+  background-color: var(--purple-background);
+  width: 330px;
+  height: 58px;
+  margin-bottom: 30px;
+  padding: 12px 0;
+
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
