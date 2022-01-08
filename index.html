@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/courses-options.css" />
     <link rel="stylesheet" href="./styles/suggestion.css" />
     <link rel="stylesheet" href="./styles/community-partner.css" />
     <link rel="stylesheet" href="./styles/awards-program.css" />
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./styles/first-access.css" />
     <link rel="stylesheet" href="./styles/our-encouragers.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
     <script src="./script.js" defer></script>
     <title>Incentive</title>
   </head>
@@ -30,10 +31,10 @@
         </div>
         <div class="header-info-links">
           <ul>
-            <li>Cursos</li>
-            <li>Parceiros</li>
-            <li>Programa AWARDS</li>
-            <li>Divulgadores</li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#parceiros">Parceiros</a></li>
+            <li><a href="#awards">Programa AWARDS</a></li>
+            <li><a href="#divulgadores">Divulgadores</a></li>
             <button class="btn">Cadastro</button>
           </ul>
         </div>
@@ -52,7 +53,7 @@
       </div>
     </header>
     <main>
-      <section class="courses-options">
+      <section id="cursos" class="courses-options">
         <h2>Aproveite os cursos que selecionamos para você!</h2>
         <div class="courses-options-list">
           <div class="courses-options-card">
@@ -124,7 +125,7 @@
         <button class="btn">Quero indicar</button>
       </section>
 
-      <section class="community-company-partner">
+      <section id="parceiros" class="community-company-partner">
         <h2>Conheça as comunidades e empresas parceiras</h2>
         <p>
           Faça conexões, pesquise e descubra o que cada parceiro tem a oferecer,
@@ -174,22 +175,22 @@
         </div>
       </section>
 
-      <section class="awards-program">
+      <section id="awards" class="awards-program">
         <h2>
           Entenda o Programa <span class="yellow-color">AWARDS</span> e quais
-          benefícios oferecemos
+          benefícios ele oferece
         </h2>
         <div class="awards-program-info">
           <img src="./assets/trofeu.png" alt="Trofeu" />
           <span
             >Com intuito de ajudar quem nos indica, criamos um programa que
-            oferece prêmios e oportunidades. <u>Saiba mais</u></span
+            oferece prêmios e oportunidades. <a href="#indicacao">Saiba mais</a></span
           >
         </div>
         <button class="btn inscription">Quero me inscrever</button>
       </section>
 
-      <section class="level-indication">
+      <section id="indicacao" class="level-indication">
         <h2>Aqui a sua indicação vale muito!</h2>
         <div class="level-descriptions">
           <h4>Indicando pessoas você sobe de nível e ganha prêmios:</h4>
@@ -295,7 +296,7 @@
         <button class="btn">Fazer o cadastro</button>
       </section>
 
-      <section class="our-encouragers">
+      <section id="divulgadores" class="our-encouragers">
         <h2>Nossos divulgadores</h2>
         <div class="our-encouragers-container">
           <img class="encouragers-arrow" src="./assets/arrow-prev.svg" alt="Voltar" />

@@ -16,6 +16,10 @@
   --dark-purple-color-transparent: #44378ab5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fbfbff;
   width: 100%;
