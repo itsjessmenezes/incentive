@@ -1,0 +1,47 @@
+header {
+  background-image: url('../../assets/background/bg-header.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 222px;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding: 24px 54px;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.info-header span a {
+  text-decoration: none;
+}
+.info-header span + span {
+  margin-left: 10px;
+}
+
+.info-header span a:hover {
+  color: var(--yellow-color);
+}
+
+header h1 {
+  width: 531px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.course-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.course-not-found h2 {
+  width: 400px;
+  margin-bottom: 30px;
+  color: var(--light-purple-color);
+}
+
+.course-not-found img {
+  width: 300px;
+}

@@ -34,6 +34,9 @@ header {
 .header-hero button {
   background-color: var(--purple-background);
 }
+.header-hero button a {
+  text-decoration: none;
+}
 
 .header-head button {
   width: 128px;

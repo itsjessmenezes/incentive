@@ -144,6 +144,7 @@ const encouragersCard = [
   },
 ];
 
+/*
 const courseList = document.querySelector('.courses-options-list')
 const btnTecnology = document.querySelector('.tecnology');
 
@@ -154,6 +155,7 @@ function tecnologyPage() {
 btnTecnology.addEventListener('click', tecnologyPage)
 
 console.log(btnTecnology)
+*/
 
 // const courseCard = document.createElement('div');
 // courseCard.classList = 'courses-options-card';
